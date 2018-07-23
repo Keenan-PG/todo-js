@@ -1,0 +1,30 @@
+ul {
+	list-style: none;
+}
+.done {
+	text-decoration: line-through;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.red {
+	font-color:red;
+}
+
+.deleteButton {
+	margin-left: 10px;
+	font-weight: bold;
+	padding: 3px 5px;
+	background-color: red;
+	border-radius: 10px;
+}
+
+.deleteButton:hover {
+	cursor: pointer;
+}
+
+li:hover {
+	cursor: pointer;
+}
